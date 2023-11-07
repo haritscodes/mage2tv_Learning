@@ -1,0 +1,1 @@
+/home/haritspc/learning/mage2tv_learning/vendor/magento/module-checkout/view/frontend/web/js/sidebar.js

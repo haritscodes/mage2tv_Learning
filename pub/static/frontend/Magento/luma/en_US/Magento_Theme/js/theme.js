@@ -1,0 +1,1 @@
+/home/haritspc/learning/mage2tv_learning/vendor/magento/theme-frontend-blank/Magento_Theme/web/js/theme.js

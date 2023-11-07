@@ -1,0 +1,1 @@
+/home/haritspc/learning/mage2tv_learning/vendor/magento/module-customer/view/frontend/web/js/section-config.js
