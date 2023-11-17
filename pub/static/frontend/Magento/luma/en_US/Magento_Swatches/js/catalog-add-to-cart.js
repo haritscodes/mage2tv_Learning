@@ -1,0 +1,1 @@
+/home/haritspc/learning/mage2tv_learning/vendor/magento/module-swatches/view/frontend/web/js/catalog-add-to-cart.js
