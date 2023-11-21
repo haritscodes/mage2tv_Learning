@@ -347,10 +347,12 @@ return [
         'Harit_Routes' => 0,
         'Instances_ExamplePlugin' => 0,
         'Instances_TestingPlugins' => 0,
+        'Learning_Layout' => 1,
         'MageMastery_Popup' => 0,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
-        'Revision_Routes' => 1,
+        'Reevision_Routes' => 1,
+        'Revision_Routes' => 0,
         'Temando_ShippingRemover' => 1
     ]
 ];
