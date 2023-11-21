@@ -1,1 +1,0 @@
-/home/haritspc/learning/mage2tv_learning/lib/web/magnifier/magnify.js

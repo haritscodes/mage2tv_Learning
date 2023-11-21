@@ -103,5 +103,9 @@
     ],
     "extra": {
         "magento-force": "override"
+    },
+    "replace":{
+        "magento/module-two-factor-auth":"*",
+        "magento/module-admin-adobe-ims-two-factor-auth":"*"
     }
 }

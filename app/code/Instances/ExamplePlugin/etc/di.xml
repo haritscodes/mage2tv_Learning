@@ -2,6 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <type name="Magento\Checkout\Model\Cart">
         <plugin name="beforeAddtoCart" type="Instances\ExamplePlugin\Plugin\Cart" sortOrder="1"/>
+        <plugin name="aroundAddtoCart" type="Instances\ExamplePlugin\Plugin\Cart" sortOrder="2"/>
     </type>
     <type name="Magento\Catalog\Model\Product">
         <plugin name="afterProductName" type="Instances\ExamplePlugin\Plugin\Product" sortOrder="1"/>
