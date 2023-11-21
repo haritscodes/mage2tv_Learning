@@ -10,10 +10,9 @@ class Index implements ActionInterface{
         $this->pageFactory= $pageFactory;
     }
     public function execute(){
-
         $result= $this->pageFactory->create();
-        $result->getConfig()->getTitle()->set("Harit Sharma");
-        $result->getLayout()->getBlock('page.main.title')->setPageTitle("Harit Sharma, Magento developer");
+        // $result->getConfig()->getTitle()->set("Harit Sharma");
+        // $result->getLayout()->getBlock('page.main.title')->setPageTitle("Harit Sharma, Magento developer");
         return $result;
     }
 }

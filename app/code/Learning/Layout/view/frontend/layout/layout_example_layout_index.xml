@@ -9,9 +9,26 @@
                 <argument name="page_title" xsi:type="string">Something else</argument>
             </action>
         </referenceBlock>
+        <!-- generic class layout -->
         <!-- <referenceBlock name="page.main.title" remove="true" /> -->
-        <referenceContainer name="content">
+        <!-- <referenceContainer name="content">
             <block name="layout_example" class="Magento\Framework\View\Element\Template" template="Learning_Layout::content.phtml"/>
+        </referenceContainer> -->
+
+        <!-- custom class layout -->
+        <referenceContainer name="content">
+            <block name="layout_example" class="Learning\Layout\Block\Layout\Index" template="Learning_Layout::content.phtml">
+                <block
+                name="layout_note" 
+                class="Learning\Layout\Block\Layout\Note"
+                template="Learning_Layout::note.phtml"
+                />
+            </block>
+            <block name="cms_block_example" class="Magento\Cms\Block\Block">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">cms_block_example</argument>
+                </arguments>
+            </block>
         </referenceContainer>
     </body>
 </config>
