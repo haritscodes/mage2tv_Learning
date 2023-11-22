@@ -1,0 +1,1 @@
+console.log("Learning_HeadCssJs::js/default.js")

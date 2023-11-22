@@ -1,0 +1,1 @@
+/home/haritspc/learning/mage2tv_learning/vendor/magento/module-instant-purchase/view/frontend/web/js/view/instant-purchase.js

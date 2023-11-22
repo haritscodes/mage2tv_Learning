@@ -344,15 +344,16 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'Magento_WishlistSampleData' => 1,
-        'Harit_Routes' => 0,
-        'Instances_ExamplePlugin' => 0,
-        'Instances_TestingPlugins' => 0,
+        'Learning_HeadCssJs' => 1,
         'Learning_Layout' => 1,
-        'MageMastery_Popup' => 0,
+        'Learning_Movelayout' => 0,
+        'Learning_Removelayout' => 1,
+        'Learning_Widgets' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
-        'Reevision_Routes' => 1,
-        'Revision_Routes' => 0,
+        'Revision_Block' => 1,
+        'Revision_Layout' => 1,
+        'Revision_Widgets' => 1,
         'Temando_ShippingRemover' => 1
     ]
 ];

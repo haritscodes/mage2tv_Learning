@@ -1,0 +1,21 @@
+{
+    "name": "revision/module-block",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "version": "0.0.1",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Revision\\Block\\": ""
+        }
+    },
+    "require": {
+        "php": "~8.1.0||~8.2.0"
+    }
+}
+

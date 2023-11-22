@@ -1,5 +1,5 @@
 <?php
-declare(strict_type=1);
+declare(strict_types =1);
 namespace Learning\Layout\Controller\Layout;
 use Magento\Framework\App\ActionInterface;
 use Magento\Framework\View\Result\PageFactory;

@@ -24,9 +24,10 @@
                 template="Learning_Layout::note.phtml"
                 />
             </block>
-            <block name="cms_block_example" class="Magento\Cms\Block\Block">
+            
+            <block name="cms_block" class="Magento\Cms\Block\Block">
                 <arguments>
-                    <argument name="block_id" xsi:type="string">cms_block_example</argument>
+                    <argument name="block_id" xsi:type="string">testin_cms_block</argument>
                 </arguments>
             </block>
         </referenceContainer>

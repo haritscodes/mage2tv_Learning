@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <body>
+    <!-- to remove a layout -->
+
+        <!-- <referenceBlock name="customer.new" remove="true"/> -->
+
+
+        <!--                                                                              -->
+        <!-- The difference while using 'remove=true' and "'display=false'" is that "remove='true'" removes the layout from the layout object. if we use "display='false'" instead of "remove='true'" then the block is not removed from the layout object and is still there but it is not displayed on the page so it is not rendered but exists in the layout object. In case of display="false" we can still access the layout, but in case of remove, we can't access the layout as it is removed from the layout object. -->
+        <!--                                                                               -->
+        <!-- <referenceBlock name="customer.new" display="false"/> -->
+    </body>
+</config>
