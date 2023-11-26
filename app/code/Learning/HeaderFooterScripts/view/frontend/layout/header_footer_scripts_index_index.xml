@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <body>
+        <referenceContainer name="head.additional">
+            <block name="header_footer_script" class="Magento\Framework\View\Element\Template" template="Learning_HeaderFooterScripts::head_addition/header_footer_scripts.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="after.body.start">
+            <block name="after_body_start_default_script" class="Magento\Framework\View\Element\Template" template="Learning_HeaderFooterScripts::body_start/header_footer_script.phtml"/>   
+        </referenceContainer>
+        <referenceContainer name="before.body.end">
+            <block name="before_body_end_default_script" class="Magento\Framework\View\Element\Template" template="Learning_HeaderFooterScripts::body_end/header_footer_script.phtml"/>   
+        </referenceContainer>
+    </body>
+</config>

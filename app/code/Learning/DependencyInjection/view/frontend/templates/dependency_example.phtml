@@ -1,0 +1,11 @@
+<div>
+    <h2>Dependency Examples</h2>
+</div>
+<p>Your class id is: <?= $block->getMain()->getId()?></p>
+<p>Your Injectable class id is: <?= $block->getMain()->getInjectable()->getId()?></p>
+<p>Your Non-Injectable class id is: <?= $block->getMain()->getNonInjectable()->getId()?></p>
+<p>Your Abstract class id is: <?= $block->getMain()->getUtil()->getName()?></p>
+<p>Your HeavyOperation class id is: <?= $block->getMain()->getHeavyOperation()->getName()?></p>
+<p>Your DefaultName class id is: <?= $block->getMain()->getDefaultName()->getName()?></p>
+<p>Your Optianal class id is: <?= $block->getMain()->getOptianal()->getName()?></p>
+<p>The Method Injection is: <?= $block->getMain()->getMethordInjectionName() ?></p>

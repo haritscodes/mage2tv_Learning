@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <head>
+        <title>Revision Layout</title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block name="layout_testing" class="Magento\Framework\View\Element\Template" template="Revision_Layout::content.phtml"/>
+        </referenceContainer>
+    </body>
+</config>

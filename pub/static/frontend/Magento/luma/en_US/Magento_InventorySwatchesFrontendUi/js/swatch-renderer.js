@@ -1,1 +1,0 @@
-/home/haritspc/learning/mage2tv_learning/vendor/magento/module-inventory-swatches-frontend-ui/view/frontend/web/js/swatch-renderer.js

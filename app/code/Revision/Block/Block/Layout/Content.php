@@ -1,7 +1,7 @@
 <?php
 
+declare(strict_types= 1);
 namespace Revision\Block\Block\Layout;
-
 use Magento\Framework\View\Element\Template;
 
 class Content extends Template{
@@ -13,7 +13,7 @@ class Content extends Template{
         }
         return $this;
     }
-    public function getMoreData(){
-        return "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur cum officia pariatur aliquid voluptates maxime repellendus, voluptas earum quas provident nesciunt quia optio quisquam deserunt dolores magni aut nisi.";
+    public function setHeading(){
+        return "Telling the Truth";
     }
-} 
+}

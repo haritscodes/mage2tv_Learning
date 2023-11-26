@@ -1,1 +1,0 @@
-/home/haritspc/learning/mage2tv_learning/app/code/Learning/HeadCssJs/view/frontend/web/js/contact.js

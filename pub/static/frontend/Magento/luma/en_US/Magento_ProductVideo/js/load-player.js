@@ -1,1 +1,0 @@
-/home/haritspc/learning/mage2tv_learning/vendor/magento/module-product-video/view/frontend/web/js/load-player.js

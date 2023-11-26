@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <preference for="Learning\DependencyInjection\Model\InjectableInterface" type="Learning\DependencyInjection\Model\Injectable"/>
+    <preference for="Learning\DependencyInjection\Model\NonInjectableInterface" type="Learning\DependencyInjection\Model\NonInjectable"/>
+
+    <!-- Not prefered way -->
+    <!-- <preference for="Learning\DependencyInjection\Model\AbstractUtil" type="Learning\DependencyInjection\Model\Util"/> -->
+    <type name="\Learning\DependencyInjection\Model\Main">
+        <arguments>
+        <!-- The better way to inject abstract class as dependency -->
+            <argument name="util" xsi:type="object">Learning\DependencyInjection\Model\Util</argument>
+            <argument name="heavyOperation" xsi:type="object">Learning\DependencyInjection\Model\HeavyOperation\Proxy</argument>
+            <argument name="defaultName" xsi:type="object">UpperCaseName</argument>
+            <!-- <argument name="optional" xsi:type="object">Learning\DependencyInjection\Model\Optional</argument> -->
+            <argument name="data" xsi:type="array">
+                <item name="id" xsi:type="string">Class Main</item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="UpperCaseName" type="Learning\DependencyInjection\Model\VirtualType\DefaultName">
+        <arguments>
+            <argument name="name" xsi:type="object">Learning\DependencyInjection\Model\VirtualType\UpperCaseName</argument>
+        </arguments>
+    </virtualType>
+</config>

@@ -1,1 +1,0 @@
-/home/haritspc/learning/mage2tv_learning/vendor/magento/module-catalog/view/frontend/web/product/view/validation.js

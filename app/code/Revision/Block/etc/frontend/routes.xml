@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <router id="standard">
-        <route id="revision_block" frontName="block">
+        <route id="block_test" frontName="block">
             <module name="Revision_Block"/>
         </route>
     </router>
